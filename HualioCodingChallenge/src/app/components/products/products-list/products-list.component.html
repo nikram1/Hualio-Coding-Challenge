@@ -1,0 +1,36 @@
+
+        <div class="row">
+                <div class="col-xl-2 col-lg-3">
+                    <app-products-sidebar></app-products-sidebar>
+                </div>
+                <div class="col-xl-10 col-lg-9">                        
+                        <section id="team" class="pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div *ngFor="let product of dataSource; index as i;" (click)="loadProduct(product.productId)" class="col-xs-12 col-sm-6 col-md-4">
+                                        <div class="image-flip" >
+                                            <div class="mainflip flip-0">
+                                                <div class="frontside">
+                                                    <div class="card">
+                                                        <div class="card-body text-center">
+                                                            <p><img class=" img-fluid" [src]="product.productImage" alt="card image"></p>
+                                                            <h4 class="card-title">{{product.name}}</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <mat-paginator *ngIf="dataSource.length > 0" [pageSizeOptions]="getPagingSizeIntervals()"
+                                    [showFirstLastButtons]="true" [length]="dataTable.length"
+                                    [pageIndex]="dataTable.pageSize" (page)="handlePage($event)"></mat-paginator>
+                                    
+                                </div>
+                            </div>
+                        </section>
+
+         
+
+                </div>
+        </div>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HualioCodingChallenge.Core\HualioCodingChallenge.Core.csproj" />
+    <ProjectReference Include="..\HualioCodingChallenge.Helpers\HualioCodingChallenge.Helpers.csproj" />
+    <ProjectReference Include="..\HualioCodingChallenge.Repository\HualioCodingChallenge.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

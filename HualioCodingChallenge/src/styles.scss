@@ -1,0 +1,188 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background: #f4f4f4;
+}
+
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+}
+
+.mat-drawer-inner-container::-webkit-scrollbar {
+  display: none !important;
+}
+
+.fc .fc-col-header-cell-cushion {
+  display: inline-block;
+  padding: 2px 4px;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.fc .fc-daygrid-day-number {
+  position: relative;
+  z-index: 4;
+  padding: 4px;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.fc .fc-button-primary {
+  color: var(--fc-button-text-color, black) !important;
+  background-color: var(--fc-button-bg-color, white) !important;
+  border-color: var(--fc-button-border-color, white) !important;
+}
+
+.fc .fc-button-primary:disabled {
+  color: var(--fc-button-text-color, #3A3F4E) !important;
+  background-color: var(--fc-button-bg-color, white) !important;
+  border-color: var(--fc-button-border-color, #D0D0D0) !important;
+  padding: 5px 30px !important;
+}
+
+.fc .fc-button-primary:focus {
+  color: var(--fc-button-text-color, #3A3F4E) !important;
+  background-color: var(--fc-button-bg-color, white) !important;
+  border-color: var(--fc-button-border-color, yellow) !important;
+  padding: 5px 30px !important;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.2rem !important;
+  margin: 0;
+  font-weight: normal;
+}
+
+.outletpage {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.mat-card {
+  border-radius: 10px !important;
+
+  box-shadow: 6px 6px 6px 6px gray;
+}
+
+.table{
+  color: #858796;
+}
+
+.mylabel {
+  color: #3A3F4E;
+}
+
+.inputfield {
+  border-radius: 20px;
+}
+
+.horizontal-align {
+  display: flex
+}
+
+.btn-primary {
+  background-color: #008cc5;
+  border-color: #008cc5;
+  height: 40px;
+  width: 150px;
+}
+
+.dark-color {
+  color: #3A3F4E
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+body {
+  overflow-y: none !important
+}
+
+.form-card {
+  padding: 0 !important;
+}
+
+.form-card .mat-card-header{
+  padding: 10px;
+  border-bottom: 1px solid rgb(216, 219, 224);
+}
+
+.form-card .mat-card-title{
+  color: #e13a3a!important;
+  font-weight: 700!important;
+  margin: 0!important;
+  margin: 0!important;
+  font-size: 16px;
+}
+
+
+.form-card button{
+  border-radius: 25px;
+}
+
+.form-card .btn-user {
+  box-shadow: 3px 3px 8px 0px #4e73df47;
+  font-size: .8rem;
+  border-radius: 10rem;
+  font-weight: 600;
+  height: 40px;
+}
+
+.form-card label.mat-form-field-label{
+  margin-left: 18px;
+}
+
+.form-card .form-validation-message{
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.mat-dialog-container {
+  padding: initial !important;
+}
+
+::ng-deep .mat-form-field-flex > .mat-form-field-infix { padding: 0.2em 0px !important;}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-label { margin-top:-15px; }
+::ng-deep label.ng-star-inserted { transform: translateY(-0.59375em) scale(.75) !important; }
+
+.mat-form-field-label{
+  margin-left: 25px !important;
+}
+
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary{
+  background-color: #008cc5 !important;
+}
+
+.bg-primary{
+  background-color: #008cc5 !important;
+}
+
+.form-field-size{
+  font-size: 13px;
+}
+
+.mat-table th mat-icon{
+  color: #008cc5;
+}
+
+.mat-toolbar{
+  background-color: #ffffff !important;
+}
+
+.input-group > .form-control, .input-group > .form-select{
+  background-color: #f5f5f5 !important;
+}

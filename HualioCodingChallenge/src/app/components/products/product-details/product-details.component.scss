@@ -1,0 +1,42 @@
+.container{
+    margin-top: 25px;
+}
+
+img{
+    width: 100%;
+}
+
+.main-text {
+    font-size: 50px;
+    margin-top:60px;
+}
+
+.main-text .label-main{
+    text-align: left;
+    line-height: 0.5;
+}
+
+.main-text .label-sub {
+    font-size: 25px;
+    text-align: center;
+}
+
+.bottom-row{
+    margin-top: 35px;
+}
+
+.bottom-row .col-lg-3{
+    text-align: center;
+}
+
+.bottom-row .col-lg-3 img{
+    height: 200px;
+    width: 100%;
+}
+
+.bottom-row .col-lg-3 label{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+<mat-toolbar>  
+  <div class="container">
+    <div class="row">
+    <div class="col-md-2">
+        <a class="brand" href="#">
+          <img src="/assets/Images/Home/FarmFresh Logo.png" alt="" style="width: 100%">
+        </a>
+    </div>
+      <div class="col-md-6">
+        <div class="input-group col-md-12 header-toolbar" id="adv-search">
+          <input type="text" class="form-control col-md-11" placeholder="Search for a product or brand" [(ngModel)]="searhValue" />
+          <div class="input-group-btn">
+            <div class="btn-group col-md-1" role="group">
+              <button (click)="searchProducts()" type="button" class="btn btn-primary">
+                <mat-icon>search</mat-icon>
+              </button>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="offset-3 col-md-1">
+        <div class="header-toolbar">
+          <img src="/assets/Images/Home/shopping-cart.png" alt="" style="width: 80%">
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
